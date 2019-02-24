@@ -8,6 +8,7 @@
   <artifactId>nukleus-fan.spec</artifactId>
   <version>develop-SNAPSHOT</version>
   <name>Fan Nukleus Specification</name>
+  <description>Fan Nukleus Specification</description>
   <url>https://github.com/reaktivity/nukleus-fan.spec</url>
 
   <licenses>
