@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.reaktivity</groupId>
   <artifactId>nukleus-fan.spec</artifactId>
-  <version>0.14</version>
+  <version>0.15</version>
   <name>Fan Nukleus Specification</name>
   <description>Fan Nukleus Specification</description>
   <url>https://github.com/reaktivity/nukleus-fan.spec</url>
@@ -47,11 +47,11 @@
 
     <junit.version>4.12</junit.version>
 
-    <k3po.version>3.0.0-alpha-104</k3po.version>
-    <reaktor.version>0.136</reaktor.version>
+    <k3po.version>3.0.0</k3po.version>
+    <reaktor.version>0.140</reaktor.version>
 
-    <nukleus.plugin.version>0.46</nukleus.plugin.version>
-    <nukleus.spec.version>0.48</nukleus.spec.version>
+    <nukleus.plugin.version>0.64</nukleus.plugin.version>
+    <nukleus.spec.version>0.49</nukleus.spec.version>
   </properties>
 
   <dependencies>
@@ -168,7 +168,7 @@
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
-        <version>0.8.2</version>
+        <version>0.8.5</version>
         <configuration>
           <rules>
             <rule>
